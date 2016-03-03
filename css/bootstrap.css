@@ -4959,11 +4959,11 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: #ffffff;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -4988,8 +4988,8 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
@@ -6758,3 +6758,13 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.row-with-padding {
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 1px solid #aaaaaa;
+}
+
+.experience-block {
+  margin-bottom:40px;
+}
